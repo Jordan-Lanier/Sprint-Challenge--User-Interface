@@ -411,3 +411,8 @@ button {
 .inner-about-items {
     margin-top: 15px;
 }
+
+a {
+    text-decoration: none;
+    text: black;
+}
