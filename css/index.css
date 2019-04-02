@@ -3,60 +3,181 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 5px;
+
 }
+
+.nav-item1 {
+    margin-right: 60px;
+    padding-right: 60px;
+}
+
+.nav-item {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.blurrytrafficimg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-bottom: 15px;
+}
+
+section {
+    display: block;
+}
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -82,7 +203,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -143,4 +264,155 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 800px;
+    height: 300px;
+}
+
+.box1 {
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    margin: 25px;
+}
+
+.box2 {
+    background-color: gold;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.box3 {
+    background-color: cadetblue;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.box4 {
+    background-color: coral;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.box5 {
+    background-color: crimson;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.box6 {
+    background-color: forestgreen;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.box7 {
+    background-color: darkorchid;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.box8 {
+    background-color: hotpink;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.box9 {
+    background-color: indigo;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.box10 {
+    background-color: dodgerblue;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.about {
+    border-bottom: 1.5px dashed black;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.about-page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: space-around;
+}
+
+.about-page-items {
+    width: 370px;
+    border-bottom: 1.5px dashed black;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+
+}
+
+button {
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.letsworktogether {
+    margin-bottom: 20px;
+}
+
+.inner-about-items {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    text: black;
 }
